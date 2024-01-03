@@ -1,0 +1,182 @@
+
+
+/* Navbar Container */
+.navbar-container {
+    background-color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+}
+
+/* Logo Style */
+.navabr-logo-container h1 {
+    color: var(--primary-color);
+    font-size: 28px;
+    margin: 0 30px;
+    font-weight: 400;
+}
+
+.dot-in {
+    color: var(--secondary-main-color);
+}
+
+.navabr-logo-container a {
+    text-decoration: none;
+}
+
+/* Navbar Menu */
+.navabr-items ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+/* Navbar Menu Items */
+.navabr-items li {
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+/* Navbar Menu Item Link Style */
+.navabr-items li a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: 400;
+    transition: color 0.3s ease;
+    font-size: 14px;
+}
+
+/* Hover effect for Navbar Menu Items */
+.navabr-items li a:hover {
+    color: var(--secondary-hover-color);
+}
+
+.navbar-account-button .account-logo{
+    color: var(--secondary-color);
+    transition: 0.3s;
+    font-size: 14px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar-account-button .account-logo:hover {
+    color: white;
+}
+
+.navbar-account-button a {
+    text-decoration: none;
+}
+
+
+/* Add this style for underlines */
+.navabr-items li::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0; /* Start from the left */
+    width: 0; /* Initially no width */
+    height: 1px;
+    background-color: var(--secondary-main-color); /* Change to the desired underline color */
+    transition: width 0.3s;
+}
+
+/* Modify this style for Navbar Menu Item Link */
+.navabr-items li {
+    position: relative; /* Add relative positioning */
+}
+
+/* On hover, expand the underline from left to right */
+.navabr-items li:hover::before {
+    width: 100%;
+}
+.navabr-items li.account-logo:hover::before {
+    width: 0%;
+}
+
+.navbar-account-button {
+    margin: 0px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-account-button .account-icon {
+    width: 16px;
+    height: 16px;
+}
+.navbar-account-button .account-icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-account-button {
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: var(--secondary-color);
+    transition: 0.3s;
+    font-size: 14px;
+    background-color: white;
+    cursor: pointer;
+    
+}
+
+.navbar-account-button:hover {
+    color: white;
+    background: var(--primary-color);
+    border: 1px solid var(--secondary-color);
+}
+
+
+/* Tooltip container */
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Tooltip text */
+  .tooltip-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 100;
+    top: 23px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  /* Tooltip container hover state */
+  .tooltip-container:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .tooltip-text button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    border-bottom: 1px solid var(--primary-color);
+    transition: 0.2s;
+  }
+
+  .tooltip-text button:hover {
+    color: var(--secondary-main-color);
+  }
+
+  .tooltip-text span {
+    padding-right: 5px;
+  }

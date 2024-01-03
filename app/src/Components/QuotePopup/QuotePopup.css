@@ -1,0 +1,97 @@
+.quote-policy-section {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 100;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.quote-policy-container {
+    background-color: #fff;
+    height: 70%;
+    width: 50%;
+    border-radius: 10px;
+    border-bottom: 3px solid var(--primary-color);
+    z-index: 100;
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.quote-policy-container h1 {
+    font-size: 22px;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.policy-attribute-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 20px;
+    
+}
+.policy-summary-attributes {
+    width: 40%;
+    margin: 10px 5px;
+}
+
+.policy-summary-attributes h4 {
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    white-space: normal;
+    word-wrap: break-word;
+    
+}
+
+.policy-summary-attributes.hex h4 {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.policy-summary-attributes p {
+    font-size: 16px;
+    color: var(--secondary-main-color);
+    font-weight: 500;
+    
+}
+
+.quote-policy-container button{
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: fit-content;
+    margin-top: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.quote-policy-container button:hover {
+    background-color: var(--secondary-main-color);
+}
+
+.policy-summary-attributes h6 {
+    margin: 0px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.policy-quote-note {
+    color: red;
+    font-size: 12px;
+    font-style: italic;
+}

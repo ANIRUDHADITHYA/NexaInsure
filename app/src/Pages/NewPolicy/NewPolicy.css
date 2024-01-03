@@ -1,0 +1,126 @@
+
+
+.new-policy-info-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.new-policy-info-group {
+    width: calc(25% - 10px);
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.new-policy-info-group label {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--secondary-color);
+    width: fit-content;
+    position: relative;
+    top: 12px;
+    left: 10px;
+    background-color: white;
+}
+
+.new-policy-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+
+.new-policy-info-group select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 335px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: 400;
+}
+
+
+
+.new-policy-info-container h2 {
+    padding: 20px;
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.new-policy-info-container-wrapper {
+    width: 90%;
+    margin: auto;
+}
+.create-policy-next-btn {
+    padding-top: 70px;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 20px;
+    padding-bottom: 100px;
+}   
+
+.submit-btn {
+    background-color: var(--primary-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: var(--secondary-main-color);
+}
+
+.new-policy-info-container.files .new-policy-info-group input{
+    padding-top: 20px;
+
+
+}
+
+
+
+.loader-btn {
+    background-color: var(--primary-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.loader-btn:hover {
+    cursor: not-allowed;
+    background-color: var(--primary-color);
+}
+
+
+.new-policy-info-group h4{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    background-color: var(--light-bg-color);
+}

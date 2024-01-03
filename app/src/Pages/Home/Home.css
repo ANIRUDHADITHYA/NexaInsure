@@ -1,0 +1,302 @@
+.home-section {
+    width: 100%;
+    height: 100%;
+}
+
+.home-main-container {
+    background-color: var(--grey-bg-color);
+    height: 100vh;
+    position: relative;
+    z-index: 0;
+}
+
+
+
+.home-main-container::after {
+    content: "";
+    background-image: url('./../../../public/Asserts/Widgets/carbannerbg.png');
+    /* Replace with the actual image path */
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 190px;
+    z-index: -100;
+}
+
+/* Add this CSS code to your existing stylesheet or create a new one */
+
+.quote-form {
+    display: flex;
+    align-items: center;
+}
+
+.quote-form form {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+}
+
+.quote-form-heading {
+    color: var(--secondary-main-color);
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.quote-form-label {
+    color: var(--secondary-color);
+    text-align: start;
+    width: 100%;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+
+.quote-form-button {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.quote-form-button:hover {
+    background-color: var(--secondary-color);
+}
+
+
+.quote-form-input-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-form-input-container input {
+    width: calc(100% - 30px);
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+
+.main-left-container {
+    width: 60%;
+    margin: auto;
+}
+
+.home-main-content {
+    width: 80%;
+}
+
+.home-main-content h1 {
+    font-size: 52px;
+    margin-bottom: 0px;
+    color: var(--primary-color);
+}
+
+.home-main-content h2 {
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: var(--secondary-color);
+}
+
+.home-main-content p {
+    text-align: justify;
+    color: var(--secondary-color);
+}
+
+
+.quote-form {
+    width: 40%;
+}
+
+.main-content-flex-wrapper {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.car-bg-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 80px;
+}
+
+.why-us-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    margin: 50px auto;
+    margin-bottom: 0px;
+
+}
+
+.whats-bc-sec {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.car-bg-wrapper {
+    width: 500px;
+    height: 500px;
+}
+
+.whats-bc-ca {
+    flex: 1;
+}
+
+.whats-bc-ca p {
+    text-align: justify;
+    width: 80%;
+    margin-left: auto;
+}
+.whats-bc-ca h3 {
+    width: 80%;
+    margin-left: auto;
+    font-size: 22px;
+    padding-bottom: 10px;
+    color: var(--secondary-color);
+}
+
+
+.features-card-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.features-container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.features-card {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: auto;
+    padding: 20px 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+
+.features-card i {
+    font-size: 52px;
+    color: var(--primary-color);
+}
+
+.features-card h3 {
+    font-size: 18px;
+    color: var(--secondary-main-color);
+    font-weight: 500;
+}
+
+.features-card p {
+    font-size: 14px;
+    line-height: 1em;
+    color: var(--secondary-color);
+}
+
+.features-container h2 {
+    font-size: 32px;
+    padding-bottom: 20px;
+    color: var(--secondary-color);
+}
+
+.about-project {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    justify-content: center;
+}
+
+.about-content-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image-wrapper {
+    width: 300px;
+    height: 300px;
+    flex: 1;
+}
+
+.about-content-main h2 {
+    padding-bottom: 10px;
+    color: var(--primary-color);
+}
+
+.about-content-main {
+    flex: 2;
+}
+
+.about-content-main p {
+    text-align: justify;
+}
+.about-content-main {
+    background-color: rgba(255, 255, 255, .15);   
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    transition: transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    cursor: pointer;
+}
+
+
+
+.about-section {
+    background-color: rgba(236, 102, 38, 0.1); /* Use a lighter color with opacity */
+    animation: flowAnimation 8s linear infinite alternate;
+    padding: 50px 0px;
+}
+
+@keyframes flowAnimation {
+    0% {
+        background-color: rgba(75, 74, 76, 0.1);
+    }
+    100% {
+        background-color: rgba(45, 71, 152, 0.3);
+    }
+}
+
+
+
+

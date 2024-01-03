@@ -1,0 +1,99 @@
+.options-card {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--primary-color);
+    width: 25%;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #fffcfa;
+    transition: 0.3s;
+}
+
+.options-card:hover {
+    background-color: var(--secondary-main-color);
+    border: 1px solid var(--secondary-color);
+}
+
+.options-card:hover h1 {
+    color: var(--primary-color);
+}
+
+.options-card:hover p {
+    color: #fff;
+}
+
+
+.option-image-wrapper {
+    width: 50px;
+    height: 50px;
+}
+
+.option-image-wrapper img {
+    width: 100%;
+    height: 100%;
+}
+.option-content {
+    width: calc(100% - 50px);
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.option-content a {
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.option-content a:hover { 
+        text-decoration: underline;
+        color: #fff;
+}
+
+.option-content h1 {
+    font-size: 18px;
+    color: var(--secondary-main-color);
+}
+
+.option-content p {
+    font-size: 14px;
+    color: var(--secondary-color);
+    text-align: right;
+    width: 80%;
+}
+
+.dashboard-main-options-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.main-options-container {
+    width: 95%;
+    margin: auto;
+    height: calc(100vh - 80px);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-options-container .main-title-option {
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 52px;
+    padding-top: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.sub-main-title-option {
+    color: var(--secondary-color);
+}
